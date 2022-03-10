@@ -1,0 +1,99 @@
+/* 메인컨텐츠 main CSS */
+
+main {
+    width:770px;
+    float:right;
+}
+
+main #notice_free_youtube {
+/*    border:solid 1px red;*/
+    height:250px;
+    position:relative;
+    margin:10px 0 0 0;
+}
+
+
+/*공지사항*/
+main #notice {
+/*    border:solid 1px red;*/
+    width:370px;
+/*    height:125px;*/
+    position:absolute;
+}
+
+main .latest_title {
+/*    border:solid 1px red;*/
+    padding:0 0 3px 0;
+    border-bottom:solid 1px #cccccc;
+}
+
+main .latest_title .latest_img {
+    float:left;
+}
+
+main .latest_title .more_img {
+    float:right;
+}
+
+main .latest_content .book_img {
+    float:left;
+    margin:10px 0 0 20px;
+}
+
+main .latest_content .list {
+    float:right;
+}
+
+main .latest_content .list div{
+    float:left;
+}
+
+main .latest_content .list .subject{
+    width:170px;
+}
+
+main .latest_content li {
+    padding:10px 0 10px 0;
+}
+
+
+/*자유게시판*/
+main #free {
+/*    border:solid 1px red;*/
+    width:370px;
+    position:absolute;
+    top:125px;
+}
+
+/*유투브*/
+main #youtube {
+/*    border:solid 1px blue;*/
+    width:370px;
+    position:absolute;
+    left:380px;
+}
+
+main #youtube_img {
+    margin:10px 0 0 50px;
+}
+
+/*포토갤러리*/
+main #gallery_box {
+    border:solid 1px #cccccc;
+    width:740px;
+    height:205px;
+    margin:10px 0 0 10px;
+    border-radius:10px;
+    box-shadow:2px 2px 5px #dddddd;
+}
+main #gallery_list{
+    padding:25px 0 0 20px;
+}
+
+
+#gallery .items{
+    float:left;
+    text-align:center;
+    margin:0 0 0 40px;
+
+}
